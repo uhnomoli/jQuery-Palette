@@ -45,7 +45,7 @@ $('#palette').palette({'color': 'CC4747'});
             <td><em>'000000'</em></td>
             <td>
                 <p>The default color of the picker.</p>
-                <p><em>Note, can be in any format <a href="https://github.com/Anomareh/parse-color.js">parse-color.js</a> recognizes.</em></p>
+                <p><em>Note, can be in any format <a href="https://github.com/uhnomoli/parse-color.js">parse-color.js</a> recognizes.</em></p>
             </td>
         </tr>
         
@@ -111,7 +111,7 @@ $('#palette').palette({'color': 'CC4747'});
             <td>
                 <p>Gets or sets the color of the supplied picker.</p>
                 
-                <p><code>color</code> can be in any format <a href="https://github.com/Anomareh/parse-color.js">parse-color.js</a> recognizes. If it isn't supplied, the color of the supplied picker is returned.</p>
+                <p><code>color</code> can be in any format <a href="https://github.com/uhnomoli/parse-color.js">parse-color.js</a> recognizes. If it isn't supplied, the color of the supplied picker is returned.</p>
                 
                 <p><code>from</code> is a string telling Palette where the color of the picker is being changed from and can be anything. For the most part, it is used internally to tell Palette not to overwrite the field the color is being changed from. If it isn't supplied, all fields are updated.</p>
             </td>
@@ -181,7 +181,7 @@ var
         <tr>
             <td><code>color</code></td>
             <td>
-                <p>The <a href="https://github.com/Anomareh/parse-color.js">parse-color.js</a> object of the color of the picker.</p>
+                <p>The <a href="https://github.com/uhnomoli/parse-color.js">parse-color.js</a> object of the color of the picker.</p>
                 
                 <p><em>Note, this can differ from <code>current</code>.</em></p>
             </td>
@@ -189,7 +189,7 @@ var
         
         <tr>
             <td><code>current</code></td>
-            <td>The <a href="https://github.com/Anomareh/parse-color.js">parse-color.js</a> object of the <strong>current</strong> color of the picker.</td>
+            <td>The <a href="https://github.com/uhnomoli/parse-color.js">parse-color.js</a> object of the <strong>current</strong> color of the picker.</td>
         </tr>
         
         <tr>
@@ -210,4 +210,5 @@ _Also note, all of the picker's options are available via it's data._
 
 [jQuery]: http://jquery.com/
 [jQuery-data]: http://api.jquery.com/data/
-[parse-color.js]: https://github.com/Anomareh/parse-color.js
+[parse-color.js]: https://github.com/uhnomoli/parse-color.js
+
